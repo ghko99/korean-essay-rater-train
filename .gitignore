@@ -1,5 +1,22 @@
 __pycache__/
+*.py[cod]
 .vscode/
+
+# Environments and local config
+.env
+.venv/
+venv/
+
+# Training artifacts
 runs/
+outputs/
+checkpoints/
+wandb/
+*.log
+*.pt
+*.pth
+*.safetensors
+
+# Local data copies
 data/
-*.pyc
+data_precomputed/*.tmp
